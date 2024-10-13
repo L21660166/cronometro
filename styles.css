@@ -76,3 +76,14 @@ button:hover {
     background: #64b5f6; /* Botón azul pastel */
     color: white;
 }
+@media screen and (max-width: 1024px) {
+    .card {
+        width: calc(50% - 40px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(100% - 40px);
+    }
+}
